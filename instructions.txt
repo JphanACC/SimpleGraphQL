@@ -1,0 +1,5 @@
+npm init
+npm i express express-graphql graphql (install all dependencies)
+npm i --save-dev nodemon (allows the server to refresh automatically)
+go to package.json then modiffy scripts with "devStart": "nodemon server.js"
+use npx nodemon server.js instead of npm nodemon.
